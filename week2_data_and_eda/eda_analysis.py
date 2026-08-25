@@ -2,9 +2,8 @@
 Week 2 - Automotive Data Analysis Internship
 Data acquisition, cleaning and exploratory analysis on the Auto MPG dataset.
 
-I'm using the public Auto MPG dataset (mirrored on GitHub from the original
-UCI source) since it has a good mix of numeric specs (weight, horsepower,
-displacement) and a categorical field (origin) to explore.
+I'm using the public Auto MPG dataset (mirrored on GitHub from the original UCI source) 
+since it has a good mix of numeric specs (weight, horsepower,displacement) and a categorical field (origin) to explore.
 """
 
 import pandas as pd
@@ -15,7 +14,7 @@ import seaborn as sns
 sns.set_theme(style="whitegrid")
 
 # ---------------------------------------------------------------
-# 1. Get the data
+# 1. Get the data - here i am using raw.githubusercontent.com (mirror of seaborn-data)
 # ---------------------------------------------------------------
 print("Fetching Auto MPG dataset...")
 url = 'https://raw.githubusercontent.com/mwaskom/seaborn-data/master/mpg.csv'
@@ -35,10 +34,11 @@ print("\nMissing values per column:\n", df.isnull().sum())
 
 # ---------------------------------------------------------------
 # 3. Cleaning
+
 # ---------------------------------------------------------------
 # Fill missing horsepower with the median horsepower of vehicles that have
 # the same number of cylinders. Using the overall median felt wrong here
-# since a 4-cylinder and an 8-cylinder engine have very different power
+# since a 4-cylinder and the 8-cylinder engine will have very different power ratio
 # outputs, so grouping first makes the fill more realistic.
 df['horsepower'] = df.groupby('cylinders')['horsepower'].transform(
     lambda x: x.fillna(x.median())
