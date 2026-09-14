@@ -19,9 +19,9 @@ The project is decoupled into weekly milestone directories to separate documenta
 * **Week 2: Data Cleaning & Exploratory Data Analysis (EDA)** 
   Acquired the public Auto MPG dataset. Handled null values via cylinder-grouped median imputation and identified anomalies using the statistical Interquartile Range (IQR) method. Extracted multi-variable correlations (e.g., Weight vs. MPG).
 * **Week 3: Advanced Modeling** 
-  *(Pending)* Implementation of feature scaling, stratified train-test splitting, and multivariable regression/classification algorithms using Scikit-Learn.
+   Implementation of feature scaling, stratified train-test splitting, and multivariable regression/classification algorithms using Scikit-Learn.
 * **Week 4: Business Intelligence** 
-  *(Pending)* Consolidating model performance metrics into strategic, real-world recommendations for the automotive sector.
+  Consolidating model performance metrics into strategic, real-world recommendations for the automotive sector.
 
 ## Local Setup & Installation
 To run this project locally and reproduce the analytical environment, execute the following commands in your terminal:
