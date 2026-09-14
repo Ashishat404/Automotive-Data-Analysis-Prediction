@@ -10,8 +10,8 @@ The project is decoupled into weekly milestone directories to separate documenta
 
 * `week1_research_planning/`: Contains the initial problem statement, project scope, and statistical methodology planning.
 * `week2_data_and_eda/`: Houses the data acquisition scripts, cleaned datasets, and exploratory visualizations.
-* `week3_predictive_modeling/`: *(In Progress)* Will contain machine learning pipelines and model evaluation scripts.
-* `week4_evaluation_strategy/`: *(Upcoming)* Will hold final business insights and strategic recommendations.
+* `week3_predictive_modeling/`: Will contain machine learning pipelines and model evaluation scripts.
+* `week4_evaluation_strategy/`: Will hold final business insights and strategic recommendations.
 
 ## Execution Phases
 * **Week 1: Research & Strategy** 
@@ -19,9 +19,9 @@ The project is decoupled into weekly milestone directories to separate documenta
 * **Week 2: Data Cleaning & Exploratory Data Analysis (EDA)** 
   Acquired the public Auto MPG dataset. Handled null values via cylinder-grouped median imputation and identified anomalies using the statistical Interquartile Range (IQR) method. Extracted multi-variable correlations (e.g., Weight vs. MPG).
 * **Week 3: Advanced Modeling** 
-  *(Pending)* Implementation of feature scaling, stratified train-test splitting, and multivariable regression/classification algorithms using Scikit-Learn.
+  Implementation of feature scaling, stratified train-test splitting, and multivariable regression/classification algorithms using Scikit-Learn.
 * **Week 4: Business Intelligence** 
-  *(Pending)* Consolidating model performance metrics into strategic, real-world recommendations for the automotive sector.
+  Consolidating model performance metrics into strategic, real-world recommendations for the automotive sector.
 
 ## Local Setup & Installation
 To run this project locally and reproduce the analytical environment, execute the following commands in your terminal:
