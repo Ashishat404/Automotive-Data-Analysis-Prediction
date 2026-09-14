@@ -10,8 +10,8 @@ The project is decoupled into weekly milestone directories to separate documenta
 
 * `week1_research_planning/`: Contains the initial problem statement, project scope, and statistical methodology planning.
 * `week2_data_and_eda/`: Houses the data acquisition scripts, cleaned datasets, and exploratory visualizations.
-* `week3_predictive_modeling/`: *(In Progress)* Will contain machine learning pipelines and model evaluation scripts.
-* `week4_evaluation_strategy/`: *(Upcoming)* Will hold final business insights and strategic recommendations.
+* `week3_predictive_modeling/`: Will contain machine learning pipelines and model evaluation scripts.
+* `week4_evaluation_strategy/`: Will hold final business insights and strategic recommendations.
 
 ## Execution Phases
 * **Week 1: Research & Strategy** 
